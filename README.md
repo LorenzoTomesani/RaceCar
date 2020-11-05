@@ -1,4 +1,4 @@
-# CAR RACE GAME IN  C++
+# RACE CAR GAME IN  C++
 
 ## Documentazione
 * [Ncurses](#ncurses)
@@ -11,10 +11,10 @@
 ## Ncurses
 È una libreria software che permette di gestire il display di un'applicazione su un terminale. 
 Fornisce un'API che permette funzionalità grafiche e l'utilizzodel mouse su un terminale a caratteri.
-Libreria sviluppata per sistemi operativi Posix.
+Libreria sviluppata per sistemi operativi Unix.
 	
 ## Prerequisiti 	
-- S.O: Posix - like
+- S.O: Unix-like
 - ncurses : sudo apt-get install libncurses5-dev libncursesw5-dev
 - make:  sudo apt-get install build-essential
 
@@ -24,16 +24,16 @@ Per compilare:
 ```bash
 Make
 ```
-Per compilare nuovamente:
+Per pulire i file creati tramite Make:
 ```bash
 Make clean
-Make
 ```
 
 ## Esecuzione
 Per eseguire: 
 ```bash
-./RaceCar.out
+cd bin/
+./RaceCar.sh
 ```
 
 ## Comandi
