@@ -319,6 +319,8 @@ __pycache__/
 # Zip file
 *.zip
 
+# Docx file
+*.docx
 # OpenCover UI analysis results
 OpenCover/
 
