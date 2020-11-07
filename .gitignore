@@ -321,6 +321,7 @@ __pycache__/
 
 # Docx file
 *.docx
+
 # OpenCover UI analysis results
 OpenCover/
 
