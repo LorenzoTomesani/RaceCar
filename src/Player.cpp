@@ -42,14 +42,6 @@ void Player::changeScore(int point_to_add){
 void Player::movePlayer(int input_player){
   attron(COLOR_PAIR(COLOR_PLAYER));
   switch(input_player){
-    case 119: //w
-    wmove(stdscr,y,x);
-    wprintw(stdscr, " ");
-    y = y - 1;
-    wmove(stdscr,y,x);
-    wprintw(stdscr, player_char);
-    refresh();
-    break;
     case 97:   //a
     wmove(stdscr,y,x);
     wprintw(stdscr, " ");
@@ -59,12 +51,12 @@ void Player::movePlayer(int input_player){
     wprintw(stdscr, player_char);
     refresh();
     break;
-    case 115:  //s
-    wmove(stdscr,y, x);
+	case 119: //w
+    wmove(stdscr,y,x);
     wprintw(stdscr, " ");
     refresh();
-    y = y + 1;
-    wmove(stdscr,y,  x);
+    y = y - 1;
+    wmove(stdscr,y,x);
     wprintw(stdscr, player_char);
     refresh();
     break;
@@ -73,6 +65,15 @@ void Player::movePlayer(int input_player){
     wprintw(stdscr, " ");
     refresh();
     x = x + 1;
+    wmove(stdscr,y,  x);
+    wprintw(stdscr, player_char);
+    refresh();
+    break;	
+    case 115:  //s
+    wmove(stdscr, y,  x);
+    wprintw(stdscr, " ");
+    refresh();
+    y= y + 1;
     wmove(stdscr,y,  x);
     wprintw(stdscr, player_char);
     refresh();
