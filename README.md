@@ -10,7 +10,7 @@
 
 ## Ncurses
 È una libreria software che permette di gestire il display di un'applicazione su un terminale. 
-Fornisce un'API che permette funzionalità grafiche e l'utilizzodel mouse su un terminale a caratteri.
+Fornisce un'API che permette funzionalità grafiche e l'utilizzo del mouse su un terminale a caratteri.
 Libreria sviluppata per sistemi operativi Unix.
 	
 ## Prerequisiti 	
